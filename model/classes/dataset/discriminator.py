@@ -2,6 +2,7 @@ from pylab import rcParams
 # set matplotlib rcParams to set fig size
 rcParams['figure.figsize'] = 15, 15
 
+
 def generate_decoder_values(pic_1, pic_2, size, encoder, decoder):
     """Interpolates between pic_1 and pic_2 by interpolating between their embeddings from the autoencoder.
     pic_1(np.array) - from sample_points
